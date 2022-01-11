@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Kuinox.ConveyorBelts
 {
-    class Grid
+    public static class MathHelper
     {
+        public static float DegreesToRadians( float degrees )
+        {
+            return MathF.PI / 180f * degrees;
+        }
     }
 }
